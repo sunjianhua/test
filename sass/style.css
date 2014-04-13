@@ -1,6 +1,6 @@
 /*
 Syntax error: File to import not found or unreadable: compass/css3.
-              Load path: /Users/sunjianhua/node/ghost-0.4.1/content/themes/test/sass (DEPRECATED)
+              Load path: /Users/sunjianhua/node/ghost-0.4.1/content/themes/test-master/sass (DEPRECATED)
         on line 35 of style.scss
 
 30: /*      00 - Includes/imports.                                                                                          *\/
@@ -58,4 +58,4 @@ style.scss:35
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load path: /Users/sunjianhua/node/ghost-0.4.1/content/themes/test/sass (DEPRECATED)\A         on line 35 of style.scss\A \A 30: /*      00 - Includes/imports.                                                                                          */\A 31: /* ==================================================================================================================== */\A 32: \A 33: @import \"imports/base-min\";\A 34: @import \"imports/grids-min\";\A 35: @import \"compass/css3\";\A 36: @import \"custom/variables\";\A 37: @import \"custom/helpers\";\A 38: \A 39:  \A 40: "; }
+  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load path: /Users/sunjianhua/node/ghost-0.4.1/content/themes/test-master/sass (DEPRECATED)\A         on line 35 of style.scss\A \A 30: /*      00 - Includes/imports.                                                                                          */\A 31: /* ==================================================================================================================== */\A 32: \A 33: @import \"imports/base-min\";\A 34: @import \"imports/grids-min\";\A 35: @import \"compass/css3\";\A 36: @import \"custom/variables\";\A 37: @import \"custom/helpers\";\A 38: \A 39:  \A 40: "; }

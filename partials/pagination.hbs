@@ -1,8 +1,11 @@
-<nav class="pagination" role="pagination">
+<nav class="pagination" role="navigation">
+    <span class="page-number">
     {{#if prev}}
-        <a class="newer-posts" href="{{page_url prev}}">&larr; Newer posts</a>
+        <a class="newer-posts" href="{{pageUrl prev}}">&larr; 较新的帖子</a>
     {{/if}}
+    共有{{pages}}页，正浏览第{{page}}页
     {{#if next}}
-        <a class="older-posts" href="{{page_url next}}">Older posts &rarr;</a>
+        <a class="older-posts" href="{{pageUrl next}}">较旧的帖子 &rarr;</a>
     {{/if}}
+        </span>
 </nav>
